@@ -21,7 +21,7 @@ public class Palindromo {
 		
 		
 		
-		if (palavra==palavraInvertida) {
+		if (palavra.equals(palavraInvertida)) {
 			System.out.println("A palavra é um palíndromo");
 		} else {
 			System.out.println("A palavra não é um palíndromo");
